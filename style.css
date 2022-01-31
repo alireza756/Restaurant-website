@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(pizza-pic.jpg);
+    background-attachment: fixed;
+}
+.bar ul{
+display: flex;
+justify-content: end;
+}
+.bar ul li{
+    list-style-type: none;
+    padding: 14px;
+    margin: 20px;
+    font-size: 20px;
+}
+.bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.bar ul li:nth-child(1){
+    background-color: #2c3e50;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.icon-web{
+    width: 90px;
+    margin-top: -70px;
+    margin-left: 30px;
+}
+.main-text .text-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 190px;
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+}
+.main-text .bottom-text-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 40px;
+    color: white;
+}
+.main-text .button-for-start{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.main-text .button-for-start input[type="button"]{
+    font-size: 30px;
+    background-color: #2c3e50;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    margin-bottom: 200px;
+    color: white;
+    cursor: pointer;
+}
+/* <!--------start-body--------!> */
+section{
+    background-color: rgb(29, 19, 18);
+}
+.main-text-Services{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color:rgb(255, 245, 157);
+    padding-top: 90px;
+    font-weight: bold;
+}
+.main-bottom-text-Services{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(255, 249, 196);
+    margin-top: 20px;
+}
+div.box{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+    border-bottom: 1px solid lightgray;
+}
+div.box .box-1{
+    
+    border-radius: 30px;
+    width: 400px;
+    height: 300px;
+    background-color: black;
+}
+div.box .img-box-1{
+    display: flex;
+    justify-content: center;
+}
+div.box  img{
+    justify-content: center;
+     width: 100px;
+     margin: 20px;
+     display: flex;
+ }
+div.box  p.header-caption{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    color: rgb(255, 249, 196);
+}
+div.box  p.caption{
+    font-size: 17px;
+    color: rgb(255, 249, 196);
+    text-align: center;
+    margin-top: 20px;
+}
+div.box .box-2{
+    border-radius: 30px;
+    width: 400px;
+    height: 300px;
+    background-color: black;
+}
+div.box .box-3{
+    border-radius: 30px;
+    width: 400px;
+    height: 300px;
+    background-color: black;
+}
+div.box-3 p.header-caption{
+    margin-top: -3px;
+}
+div.box .box-3:hover{
+    transition: .7s;
+    background-color: #18222c;
+    box-shadow: 0 0 50px rgb(255, 249, 196);
+}
+div.box .box-2:hover{
+    transition: .7s;
+    background-color: #18222c;
+    box-shadow: 0 0 50px rgb(255, 249, 196);
+}
+div.box .box-1:hover{
+    transition: .7s;
+    background-color: #18222c;
+    box-shadow: 0 0 50px rgb(255, 249, 196);
+}
+.main-comment-head{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+    margin-top: 60px;
+}
+.head-bottom{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+.comment1 , .comment2 , .comment3 , .comment4{
+    width: 400px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 60px;
+    margin-bottom: 60px;
+    border-bottom: 2px solid rgb(255, 249, 196);
+}
+.comment1 , .comment2 , .comment3 , .comment4{
+    background-color: black;
+}
+.comment1 , .comment2 , .comment3 ,.comment4{
+    display: flex;
+    transition: .7s;
+}
+.comment{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+    flex-wrap: wrap;
+}
+.comment1 img{
+    padding-right: 50px;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.text-support p:nth-child(1){
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 35px;
+}
+.text-support{
+    text-align: center;
+}
+.text-support p{
+    color: white;
+}
+.comment2 img{
+    padding-right: 50px;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.comment3 img{
+    padding-right: 50px;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.comment4 img{
+    padding-right: 50px;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.comment1:hover{
+    box-shadow: 0 0 50px white;
+}
+.comment2:hover{
+    box-shadow: 0 0 50px white;
+}
+.comment3:hover{
+    box-shadow: 0 0 50px white;
+}
+.comment4:hover{
+    box-shadow: 0 0 50px white;
+}
+.container{
+max-width: 110rem;
+margin-right: auto;
+margin-left: auto;
+padding-right: 1rem;
+padding-left: 1rem;
+}
+.text-top-button{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 40px;
+    text-align: center;
+}
+.button-next{
+    display: flex;
+    justify-content: center;
+   
+}
+.next-button{
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 40px;
+    background-color: rgb(26, 35, 126);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+footer{
+    background-color: #0B0348;
+}
+.text-header-contact{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 65px;
+    color: white;
+    font-weight: bold;
+}
+.text-header-contact-bottom{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 25px;
+    color:  white;
+}
+div.name-family{
+    display: flex;
+    justify-content: center;
+}
+div.name-family input[type="text"]{
+    width: 400px;
+    height: 40px;
+    text-align: right;
+    font-size: 30px;
+    padding-right:20px 20px;
+    margin: 10px ;
+}
+div.text-area{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+div.text-area textarea{
+    text-align: right;
+    font-size: 25px;
+    
+}
+.send-Message{
+    display: flex;
+    justify-content: center;
+}
+.send-Message input[type="button"]{
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 40px;
+    background-color: rgb(26, 35, 126);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+.copyright-box{
+    background-color: rgb(26, 35, 126);
+    text-align: right;
+    padding: 30px 20px 30px 0 ;
+    font-size: 20px;
+    color: white;
+}
+.pizza-off{
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.pizza-off{
+    font-size: 60px;
+    animation: off 20s infinite;
+}
+.pizza-off p{
+    font-size: 20px;
+}
+.pizza-off a p .off-pizza{
+    font-size: 60px;
+    animation: off 20s infinite;
+}
+@keyframes off {
+    0%{color: red;}
+    10%{color: blue;}
+    20%{color: blueviolet;}
+    30%{color: chartreuse;}
+    40%{color: cornflowerblue;}
+    50%{color: aquamarine;}
+    60%{color: violet;}
+    70%{color: slategrey;}
+    80%{color: lightgray;}
+    90%{color: greenyellow;}
+    100%{color: ghostwhite;}
+}
+
+/* 
+This page was designed by Alireza cheraghliei.
+github: https://github.com/alireza756
+LinkedIn: www.linkedin.com/in/alireza-cheraghliei-067666224
+*/
